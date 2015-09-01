@@ -1,0 +1,10 @@
+body{
+	background-color: white;
+	font-family: helvetica;
+}
+div.text_center{
+	text-align: center;
+}
+.blue_font{
+	color: #366a7d;
+}

@@ -1,0 +1,23 @@
+body{
+	background-color: #eaeaea;
+	font-family: helvetica;
+	padding: 0px;
+	margin: 0px;
+}
+div.text_center{
+	text-align: center;
+}
+.blue_font{
+	color: #366a7d;
+}
+.darkgrey_font{
+	color: #666666;
+}
+.main{
+	padding: 10px;
+}
+#top_box{
+width: 100%;
+background-color: #366a7d;
+height: 25px;
+}	

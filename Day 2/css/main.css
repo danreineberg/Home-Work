@@ -14,16 +14,15 @@ hr {
 	border-top: 2px solid #222222;
 	clear: both;
 }
+.image_2{
+	margin: 0px auto;
+	float: none;
+}
 
 img{
-	float: left;
-	width: 20%;
+	float: right;
 	padding: 5px;
 	border: 2px solid #222222;
-}
-.home{
-	float: left;
-	width: 60%;
 }
 .style_1{
 	font-style: italic;
@@ -32,5 +31,6 @@ img{
 footer{
 	float: left;
 	width: 30%;
+	padding: 25px;
 }
 

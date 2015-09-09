@@ -11,7 +11,7 @@ header {
 	text-align: center;
 }
 hr {
-	border-top: 3px;
+	border-top: 2px solid #222222;
 	clear: both;
 }
 
@@ -21,11 +21,11 @@ img{
 	padding: 5px;
 	border: 2px solid #222222;
 }
-p{
+.home{
 	float: left;
 	width: 60%;
 }
-.awesome{
+.style_1{
 	font-style: italic;
 	font-weight: bold;
 }

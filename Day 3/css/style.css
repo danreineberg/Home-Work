@@ -1,0 +1,38 @@
+body{
+	margin: 0;
+	padding: 0;
+	top-padding: 0;
+}
+header{
+	background-image: url("../images/header_bg.jpg");
+	width: 100%;
+	height:	500px;
+	color: #ffffff;
+}
+header h2{
+	text-align: center;
+}
+h3{
+	color: yellow;
+	font-size: 18px;
+}
+blockquote{
+	text-align: center;
+}
+footer{
+	background: #000000;
+	text-align: center;
+	height: 250px;
+	width: 100%;
+}
+#section_quote{
+	color: #ffffff;
+	background-image: url("../images/testimonial_bg.jpg");
+	height: 150px;
+	width:100%;
+
+}
+#section_benefits{
+	height: 300px;
+}
+	

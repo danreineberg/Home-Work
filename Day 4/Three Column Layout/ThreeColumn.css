@@ -1,0 +1,31 @@
+header{
+	background: #cccccc;
+	border: 1px solid #d2d2d2;
+	height: 100px;
+	margin: 10px;
+}
+.float-left{
+	float: left;
+	background: #cccccc;
+	border: 1px solid #d2d2d2;
+	height: 400px;
+	width: 23%;
+	margin: 5px;
+
+}
+.float-center{
+	float: left;
+	background: #cccccc;
+	border: 1px solid #d2d2d2;
+	height: 400px;
+	width: 50%;
+	margin: 5px;
+}
+
+footer{
+	clear: both;
+	background: #cccccc;
+	border: 1px solid #d2d2d2;
+	height: 100px;
+	margin: 10px;
+}

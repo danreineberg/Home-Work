@@ -7,7 +7,6 @@ body{
 	text-align: center;
 }
 
-/*Header Section*/
 header{
 	background-image: url("../images/header_bg.jpg");
 	width: 100%;
@@ -42,6 +41,13 @@ header button{
 	box-shadow: 0px 5px 15px 5px #606161;
 }
 
+#section-benefits{
+	margin: 50px;
+	height: 200px;
+	font:  #121212;
+	font-size: 13px;
+	font-weight: 300;
+}
 
 h2{
 	font-size: 20px;
@@ -49,10 +55,11 @@ h2{
 	font: #033048;
 }
 
+
 #section-signup{
 	margin: 0px;
 	background: #f9e42e;
-	height: 60px;
+	height: 80px;
 
 }
 
@@ -64,16 +71,9 @@ h2{
 	border: none;
 	height: 30px;
 	width: 150px;
-	margin-top: 15px;
+	margin-top: 25px;
 }	
 
-#section-benefits{
-	margin: 50px;
-	height: 200px;
-	font:  #121212;
-	font-size: 13px;
-	font-weight: 300;
-}
 
 #section-benefits h3{
 	margin: 0px;
@@ -82,11 +82,7 @@ h2{
 	font-weight: 800;
 	padding: 20px;
 }
-ul{
 
-}
-
-/*Quote Section*/
 #section-quote{
 	color: #ffffff;
 	background-image: url("../images/testimonial_bg.jpg");
@@ -98,17 +94,17 @@ blockquote{
 	text-align: center;
 	margin: 0px;
 	font-size: 18px;
-	font-weight: 300 italic;
+	font-weight: 300; 
+	font-style: italic;
+	padding: 0px 300px;
 }
 
 h4{
 	text-align: center;
 	font: #ffffff; 
 	font-weight: 18px 300;
-	font-style: italic;
 }
 
-/*Footer Section*/
 footer{
 	margin: 0px;
 	background: #000000;

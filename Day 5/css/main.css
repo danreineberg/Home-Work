@@ -1,0 +1,173 @@
+body{
+	margin: 0;
+	background: #f0efef;
+	font-family: 'Open Sans', sans-serif;
+}
+	
+
+/*Header Style */
+
+header{
+	background-color: #033048;
+	height: 75px;
+	width: 100%;
+	margin: 0;
+	clear: both;
+}
+
+header h1{
+	float: left;
+	color: #ffffff;
+	font-size: 24px;
+	margin: 0;
+	padding: 20px 0px 0px 20px;
+	
+
+}
+
+header ul{
+	display: inline;
+	color: #f9e42e;
+	font-size: 18px;
+	list-style: none;
+}
+
+header li{
+	float: right;
+	padding: 0px 10px;
+	font-weight: 600;
+	padding: 25px 20px 0px 20px;
+}
+
+/*Categories Div Style*/
+
+#categories{
+	float: right;
+	width: 25%;
+	margin: 20px 20px 0px 0px;
+}
+
+h2{
+	font-size: 24px;
+	font-weight: 800;
+	color: #033048;
+}
+
+#categories ul{
+	list-style-type: none;
+	padding: 0;
+	margin-left: 0;
+	color: #033048;
+	font-size: 18px;
+	font-weight: 300;
+}
+
+/*About Div Style*/
+
+#about{
+	float: right;
+	width: 25%;
+	margin: 20px 20px 0px 0px;
+}
+
+p{
+	color: #033048
+}
+
+.text-button{
+	font-weight: 600;
+	font-size: 18px;
+	border: none;
+	background-color: #f0efef;
+	color: #033048;
+	margin: 0;
+}
+
+/*Ad Unit Div Style*/
+
+#advertisment{
+	background-color: #ffffff;
+	height: 350px;
+	float: right;
+	width: 25%;
+	margin: 20px 20px 0px 0px;
+	text-align: center;
+}
+
+/*Article Style*/
+
+.article{
+	float: left;
+	width: 55%;
+	border-bottom: 1px solid #333333;
+	margin: 20px 0px 0px 20px;
+}
+
+.article img{
+	max-width: 100%
+}
+
+
+.article button{
+	border: none;
+	color: #033048;
+	float: right;
+	background-color: #f0efef;
+	padding: 15px 0px;
+}
+
+.article p:first-letter{
+	float: left;
+	font-size: 48px;
+	color: #033048;
+	padding: 0 6px 0 0;
+	line-height: 50px;
+}
+
+#gap{
+	clear: both;
+	height: 60px;
+	background-color: #f0efef;
+}
+
+/*Call To Action Style*/
+
+#cta{
+	clear: both;
+	height: 100px;
+	background-color: #f9e42e;
+}
+
+.button-center{
+	text-align: center;
+}
+
+#cta button{
+	color: #ffffff;
+	background-color: #033048;
+	border: none;
+	margin-top: 35px;
+	border-radius: 4px;
+	font-size: 18px;
+	width: 20%;
+}
+
+/*Footer Style*/
+
+footer{
+	text-align: center;
+	clear: both;
+	background-color: #121212;
+	color: #ffffff;
+	font-size: 12px;
+}
+
+h1{
+	margin: 0;
+	color: #f9e42e;
+}
+
+footer img{
+	padding: 25px 10px;
+	height: 20px;
+}

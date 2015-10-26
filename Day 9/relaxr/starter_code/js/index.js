@@ -16,6 +16,24 @@ $("#show-this-on-click").on("click", function()){
   $(this).next(".read-more-content").toggleClass("hide");
 });
 
+$('.readmore').click(function(){
+	$('#show-this-on-click').slideDown('slow');
+	$('.readless').show();
+	$('.readmore').hide();
+});
+
+$('.readless').click(function() {
+	$('#show-this-on-click').slideUp('slow');
+	$('.readless').hide();
+	$('.readmore').show();
+});
+
+$('.learnmore').click(function() {
+	$('.hide').slideDown('slow');
+	$('.learnmore').hide();
+	});
+})
+
 
 
 // - Select the appropriate DOM elements with CSS selectors upon a user's click using the ```$.click()``` handler
@@ -35,4 +53,4 @@ $("#show-this-on-click").on("click", function()){
 //   - show the "Read More" link using ```$.show()```
 
 // - Using the same functions as above, if a user clicks the "Learn More" link in the sidebar, have the ```<span>``` inside that ```<p>``` slide down and hide the "Learn More" link using ```$.slideDown()``` and ```$.hide()```
-});
+

@@ -375,6 +375,11 @@ header p{
 h3{
 	font-family: 'Raleway', sans-serif;
 	padding-bottom: 15px;
+	color: #444444
+}
+
+h4{
+	color: #444444;
 }
 
 

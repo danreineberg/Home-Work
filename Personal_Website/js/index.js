@@ -101,6 +101,30 @@ $(document).ready(function(){
 			},
 		},	
 	});
+
+	$('#twitter').hover(function () {
+        this.src = 'images/sm_twitter_hover.png';
+    }, function () {
+        this.src = 'images/sm_twitter.png';
+    });
+
+    $('#instagram').hover(function () {
+        this.src = 'images/sm_instagram_hover.png';
+    }, function () {
+        this.src = 'images/sm_instagram.png';
+    });
+
+    $('#linkedin').hover(function () {
+        this.src = 'images/sm_linkedin_hover.png';
+    }, function () {
+        this.src = 'images/sm_linkedin.png';
+    });
+
+    $('#paw').hover(function () {
+        this.src = 'images/sm_dog_hover.png';
+    }, function () {
+        this.src = 'images/sm_paw.png';
+    });
 	
 
 
